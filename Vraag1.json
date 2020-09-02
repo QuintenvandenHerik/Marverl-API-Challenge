@@ -1,0 +1,542 @@
+https://gateway.marvel.com:443//v1/public/characters/1009187/comics?ts=137&apikey=b4314eaf4b0489b13fffad58799cbaa8&hash=1fa83017c05c075a86ede26b04d2fd50&orderBy=onsaleDate&startYear=1959&formatType=comic
+
+{
+    "code": 200,
+    "status": "Ok",
+    "copyright": "© 2020 MARVEL",
+    "attributionText": "Data provided by Marvel. © 2020 MARVEL",
+    "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2020 MARVEL</a>",
+    "etag": "590f680c89dcbbc3d7fb72c446bff6140d261c2b",
+    "data": {
+        "offset": 0,
+        "limit": 20,
+        "total": 3,
+        "count": 3,
+        "results": [
+            {
+                "id": 11344,
+                "digitalId": 3747,
+                "title": "Tales of Suspense (1959) #97",
+                "issueNumber": 97,
+                "variantDescription": "",
+                "description": null,
+                "modified": "2020-01-31T09:06:12-0500",
+                "isbn": "",
+                "upc": "",
+                "diamondCode": "",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 0,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/11344",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/issue/11344/tales_of_suspense_1959_97?utm_campaign=apiRef&utm_source=b4314eaf4b0489b13fffad58799cbaa8"
+                    },
+                    {
+                        "type": "reader",
+                        "url": "http://marvel.com/digitalcomics/view.htm?iid=3747&utm_campaign=apiRef&utm_source=b4314eaf4b0489b13fffad58799cbaa8"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/2079",
+                    "name": "Tales of Suspense (1959 - 1968)"
+                },
+                "variants": [],
+                "collections": [
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/2001",
+                        "name": "MARVEL MASTERWORKS: THE INVINCIBLE IRON MAN VOL. 1 HC (Hardcover)"
+                    }
+                ],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "1968-01-01T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "-0001-11-30T00:00:00-0500"
+                    },
+                    {
+                        "type": "unlimitedDate",
+                        "date": "2007-04-28T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 0
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/5/f0/536d45a6013fb",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/5/f0/536d45a6013fb",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 6,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/11344/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/270",
+                            "name": "Gene Colan",
+                            "role": "penciller (cover)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1519",
+                            "name": "Frank Giacoia",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1240",
+                            "name": "Joe Sinnott",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/196",
+                            "name": "Jack Kirby",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/30",
+                            "name": "Stan Lee",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13093",
+                            "name": "Art Simek",
+                            "role": "letterer"
+                        }
+                    ],
+                    "returned": 6
+                },
+                "characters": {
+                    "available": 4,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/11344/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009187",
+                            "name": "Black Panther"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                            "name": "Captain America"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+                            "name": "Iron Man"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009711",
+                            "name": "Whiplash (Mark Scarlotti)"
+                        }
+                    ],
+                    "returned": 4
+                },
+                "stories": {
+                    "available": 5,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/11344/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/11988",
+                            "name": "Cover #11988",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/11989",
+                            "name": "The Coming of...Whiplash",
+                            "type": "interiorStory"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/11990",
+                            "name": "And So It Begins--!",
+                            "type": "interiorStory"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/154181",
+                            "name": "cover from Tales of Suspense (1959) #97",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/154182",
+                            "name": "story from Tales of Suspense (1959) #97",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 5
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/11344/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 11345,
+                "digitalId": 3748,
+                "title": "Tales of Suspense (1959) #98",
+                "issueNumber": 98,
+                "variantDescription": "",
+                "description": null,
+                "modified": "2020-01-31T09:06:14-0500",
+                "isbn": "",
+                "upc": "",
+                "diamondCode": "",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 0,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/11345",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/issue/11345/tales_of_suspense_1959_98?utm_campaign=apiRef&utm_source=b4314eaf4b0489b13fffad58799cbaa8"
+                    },
+                    {
+                        "type": "reader",
+                        "url": "http://marvel.com/digitalcomics/view.htm?iid=3748&utm_campaign=apiRef&utm_source=b4314eaf4b0489b13fffad58799cbaa8"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/2079",
+                    "name": "Tales of Suspense (1959 - 1968)"
+                },
+                "variants": [],
+                "collections": [
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/2001",
+                        "name": "MARVEL MASTERWORKS: THE INVINCIBLE IRON MAN VOL. 1 HC (Hardcover)"
+                    }
+                ],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "1968-02-01T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "-0001-11-30T00:00:00-0500"
+                    },
+                    {
+                        "type": "unlimitedDate",
+                        "date": "2007-04-28T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 0
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/03/536d45752f417",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/03/536d45752f417",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 6,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/11345/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/270",
+                            "name": "Gene Colan",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1519",
+                            "name": "Frank Giacoia",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1240",
+                            "name": "Joe Sinnott",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/196",
+                            "name": "Jack Kirby",
+                            "role": "penciller (cover)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/30",
+                            "name": "Stan Lee",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13093",
+                            "name": "Art Simek",
+                            "role": "letterer"
+                        }
+                    ],
+                    "returned": 6
+                },
+                "characters": {
+                    "available": 7,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/11345/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009170",
+                            "name": "Baron Zemo (Heinrich Zemo)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009187",
+                            "name": "Black Panther"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                            "name": "Captain America"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+                            "name": "Iron Man"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009471",
+                            "name": "Nick Fury"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009552",
+                            "name": "S.H.I.E.L.D."
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009711",
+                            "name": "Whiplash (Mark Scarlotti)"
+                        }
+                    ],
+                    "returned": 7
+                },
+                "stories": {
+                    "available": 5,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/11345/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/11991",
+                            "name": "Cover #11991",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/11992",
+                            "name": "The Claws of the Panther",
+                            "type": "interiorStory"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/11993",
+                            "name": "The Warrior and the Whip!",
+                            "type": "interiorStory"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/154183",
+                            "name": "cover from Tales of Suspense (1959) #98",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/154184",
+                            "name": "story from Tales of Suspense (1959) #98",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 5
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/11345/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 11346,
+                "digitalId": 3749,
+                "title": "Tales of Suspense (1959) #99",
+                "issueNumber": 99,
+                "variantDescription": "",
+                "description": null,
+                "modified": "2020-01-31T09:06:15-0500",
+                "isbn": "",
+                "upc": "",
+                "diamondCode": "",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 0,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/11346",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/issue/11346/tales_of_suspense_1959_99?utm_campaign=apiRef&utm_source=b4314eaf4b0489b13fffad58799cbaa8"
+                    },
+                    {
+                        "type": "reader",
+                        "url": "http://marvel.com/digitalcomics/view.htm?iid=3749&utm_campaign=apiRef&utm_source=b4314eaf4b0489b13fffad58799cbaa8"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/2079",
+                    "name": "Tales of Suspense (1959 - 1968)"
+                },
+                "variants": [],
+                "collections": [
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/2001",
+                        "name": "MARVEL MASTERWORKS: THE INVINCIBLE IRON MAN VOL. 1 HC (Hardcover)"
+                    }
+                ],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "1968-03-01T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "-0001-11-30T00:00:00-0500"
+                    },
+                    {
+                        "type": "unlimitedDate",
+                        "date": "2007-04-28T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 0
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/70/536f07e06823c",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/70/536f07e06823c",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 6,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/11346/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/270",
+                            "name": "Gene Colan",
+                            "role": "penciller (cover)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1178",
+                            "name": "Archie Goodwin",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/30",
+                            "name": "Stan Lee",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/196",
+                            "name": "Jack Kirby",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1256",
+                            "name": "Syd Shores",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13093",
+                            "name": "Art Simek",
+                            "role": "letterer"
+                        }
+                    ],
+                    "returned": 6
+                },
+                "characters": {
+                    "available": 6,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/11346/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009144",
+                            "name": "A.I.M."
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009170",
+                            "name": "Baron Zemo (Heinrich Zemo)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009187",
+                            "name": "Black Panther"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                            "name": "Captain America"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+                            "name": "Iron Man"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009471",
+                            "name": "Nick Fury"
+                        }
+                    ],
+                    "returned": 6
+                },
+                "stories": {
+                    "available": 5,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/11346/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/11994",
+                            "name": "Cover #11994",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/11995",
+                            "name": "At the Mercy of the Maggia",
+                            "type": "interiorStory"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/11996",
+                            "name": "The Man Who Lived Twice!",
+                            "type": "interiorStory"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/154185",
+                            "name": "cover from Tales of Suspense (1959) #99",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/154186",
+                            "name": "story from Tales of Suspense (1959) #99",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 5
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/11346/events",
+                    "items": [],
+                    "returned": 0
+                }
+            }
+        ]
+    }
+}
